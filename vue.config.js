@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  publicPath: "/",
+  publicPath:process.env.NODE_ENV === 'production'? '/fs-design/': '/',
   outputDir: "dist",
   configureWebpack: (config) => {
     if (process.env.NODE_ENV === "production") {

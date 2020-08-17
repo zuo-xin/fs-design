@@ -24,11 +24,10 @@ const side_data = [
         title: "Button 按钮",
         name: "button",
       },
-
-      // {
-      //   title: "Icon 图标",
-      //   name: "icon",
-      // },
+      {
+        title: "Icon 图标",
+        name: "icon",
+      },
     ],
   },
   // {

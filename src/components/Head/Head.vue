@@ -3,7 +3,10 @@
     <!-- <div class="head_wrap"> -->
       <div class="head">
         <div class="head_left">
-          <img src="./images/logo.jpg" class="logo" alt="logo" />
+        <a href="./">
+        <img src="./images/logo.jpg" class="logo" alt="logo" />
+        </a>
+          
           <span class="left_title">FS.COM 前台组件设计规范</span>
         </div>
         <div class="head_right">
